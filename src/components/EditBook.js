@@ -6,11 +6,9 @@ function EditBook() {
     const { id } = useParams();
     const navigate = useNavigate();
     const [book, setBook] = useState({ title: '', quantity: '' });
-
     useEffect(() => {
         getBookById(id).then((response) => {
             setBook(response.data);
-            navigate('/');
         }).catch((err) => {
             alert('Error fetching book data');
         });
@@ -19,9 +17,7 @@ function EditBook() {
     const handleSave = () => {
         updateBook(id, book).then(() => {
             alert('Book updated successfully');
-            navigate('/'); // Điều hướng về trang danh sách sách sau khi lưu
-        }).catch((err) => {
-            alert('Error updating book');
+            navigate('/');
         });
     };
 

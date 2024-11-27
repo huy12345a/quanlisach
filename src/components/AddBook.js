@@ -10,8 +10,11 @@ function AddBook() {
     const handleAdd = () => {
         const newBook = { title, quantity };
 
+
         addBook(newBook).then(() => {
             alert('Book added successfully');
+            setTitle('');
+            setQuantity('')
             navigate('/');
         }).catch((err) => {
             alert('Error adding book');

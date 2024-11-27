@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://my-json-server.typicode.com/codegym-vn/mock-api-books/books';
+// const BASE_URL = 'https://my-json-server.typicode.com/codegym-vn/mock-api-books/books';
+const BASE_URL ='http://localhost:3000/books';
 
 export const getBooks = () => axios.get(BASE_URL);
 export const getBookById = (id) => axios.get(`${BASE_URL}/${id}`);
