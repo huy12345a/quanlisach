@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quanlisach/static/css/main.79d19d76.css",
-    "main.js": "/quanlisach/static/js/main.176ef22b.js",
+    "main.js": "/quanlisach/static/js/main.e466759a.js",
     "static/js/453.19618ca1.chunk.js": "/quanlisach/static/js/453.19618ca1.chunk.js",
     "index.html": "/quanlisach/index.html",
     "main.79d19d76.css.map": "/quanlisach/static/css/main.79d19d76.css.map",
-    "main.176ef22b.js.map": "/quanlisach/static/js/main.176ef22b.js.map",
+    "main.e466759a.js.map": "/quanlisach/static/js/main.e466759a.js.map",
     "453.19618ca1.chunk.js.map": "/quanlisach/static/js/453.19618ca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79d19d76.css",
-    "static/js/main.176ef22b.js"
+    "static/js/main.e466759a.js"
   ]
 }
